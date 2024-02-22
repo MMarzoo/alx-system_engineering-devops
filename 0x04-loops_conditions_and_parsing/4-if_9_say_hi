@@ -10,5 +10,5 @@ do
 		echo "Hi"
 	fi
 	echo "Best School"
-	((i++))
+	(( i++ ))
 done
