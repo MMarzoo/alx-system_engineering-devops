@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # prints a string 10 times using while loop and on the ninth iteration it prints hi
 
-i=1
+i=0
 
 while [ $i -lt 10 ]
 do
@@ -10,5 +10,5 @@ do
 		echo "Hi"
 	fi
 	echo "Best School"
-	(( i++ ))
+	((i++))
 done
