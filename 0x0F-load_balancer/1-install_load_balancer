@@ -34,14 +34,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend mmarzoo.tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend mmarzoo.tech-backend
 
-backend clickviral-tech-backend
+backend mmarzoo.tech-backend
     balance roundrobin
-    server 151666-web-01 100.25.190.21:80 check
-    server 151666-web-02 54.160.77.90:80 check
+    server 531280-web-01 107.23.39.235:80 check
+    server 531280-web-02 54.237.18.29:80 check
 "
 
 # shellcheck disable=SC2154
