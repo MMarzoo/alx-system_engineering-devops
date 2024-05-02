@@ -47,5 +47,5 @@ frontend mmarzoo.tech-frontend-https
 
 backend mmarzoo.tech-backend
         balance roundrobin
-        server 531280-web-01 107.23.39.235
-        server 531280-web-02 54.237.18.29
+        server 531280-web-01 107.23.39.235:80 check
+        server 531280-web-02 54.237.18.29:80 check
