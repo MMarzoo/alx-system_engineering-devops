@@ -13,15 +13,15 @@ if __name__ == '__main__':
     Users = resp.json()
 
     users_dict = {}
-    fir user in Users:
+    for user in Users:
         USER_ID = user.get('id')
         USERNAME = user.get('username')
         url = 'https://jsonplaceholder.typicode.com/users/{}'.format(USER_ID)
-        usr = url + '/todos/'
+        url = url + '/todos/'
         resp = requests.get(url)
 
         tasks = resp.json()
-        users_dic[USER_ID] = []
+        users_dict[USER_ID] = []
         for task in tasks:
             TASK_COMPLETED_STATUS = task.get('completed')
             TASK_TITLE = task.get('title')
@@ -30,6 +30,6 @@ if __name__ == '__main__':
                 "completed": TASK_COMPLETED_STATUS,
                 "username": USERNAME
             })
-
-with open('todo_all_employees.json', 'w') as f:
-    json.dump(users_dict, f)
+            """A little Something"""
+    with open('todo_all_employees.json', 'w') as f:
+        json.dump(users_dict, f)
