@@ -1,8 +1,5 @@
 # Postmortem
 
-[![Server Outage](https://images.unsplash.com/photo-1581091215367-59cf8c10636f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHNlcnZlciUyMG91dGFnZXxlbnwwfHx8fDE2NTg2MjA3MTQ&ixlib=rb-1.2.1&q=80&w=1080)](https://github.com/B3zaleel/alx-system_engineering-devops/blob/main/0x19-postmortem/post-mortem-meetings.jpg)
-
-
 ## Issue Summary
 
 **Duration of the Outage:**
