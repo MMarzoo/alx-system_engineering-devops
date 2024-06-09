@@ -1,6 +1,6 @@
 # Postmortem
 
-![Server Down](https://via.placeholder.com/800x400?text=Server+Down+Cartoon)
+![Flogging a dead horse](images/post-mortem-meetings.jpg)
 
 ## Issue Summary
 
