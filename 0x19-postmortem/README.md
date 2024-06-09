@@ -5,7 +5,15 @@
 
 ## Issue Summary
 
-We had just released a new feature to our recently launched Ruby on Rails site that we had our first intake of users complaining about the site. 5 minutes after we performed a feature update, we started receiving emails from our users talking about "they can't sign in or sign up to our platform". It was quite surprising to us because we knew it worked on our machines and it worked before. About 127 of such emails came to our inbox. It was an avalanche of emails. Knowing how hard it can be to attract and keep users, we couldn't afford to lose 127 of our users in that way and decided to take a closer look at the problem. We cloned our site's repository from GitBug, followed the installation instructions on the README and to our surprise the site couldn't startup. It wasn't long before we realized that the cause of the problem was failing to update the requirements for our project. The site was malfunctioning from 9:55 AM GMT+1 to 11:20 AM GMT+1.
+**Duration of the Outage:**
+Start: June 5, 2024, 14:00 UTC
+End: June 5, 2024, 15:30 UTC
+
+**Impact:**
+Our main e-commerce website experienced a severe slowdown, rendering the service nearly unusable for 90 minutes. Approximately 80% of users were affected, encountering long loading times and, in some cases, complete timeouts. This resulted in a significant number of abandoned shopping carts and customer complaints.
+
+**Root Cause:**
+A sudden spike in database queries overwhelmed our primary database server due to an unoptimized query introduced in a recent code update.
 
 ## Timeline
 
