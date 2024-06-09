@@ -1,6 +1,7 @@
 # Postmortem
 
-![Flogging a dead horse](images/post-mortem-meetings.jpg)
+![Server Outage](https://images.unsplash.com/photo-1581091215367-59cf8c10636f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHNlcnZlciUyMG91dGFnZXxlbnwwfHx8fDE2NTg2MjA3MTQ&ixlib=rb-1.2.1&q=80&w=1080)
+
 
 ## Issue Summary
 
